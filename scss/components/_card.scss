@@ -1,0 +1,25 @@
+.card {
+  color: $color-grey-dark;
+  background-color: $color-white;
+  padding: 1rem;
+  border: 1px solid $color-grey-light;
+  border-radius: 0.25rem;
+}
+
+.card__header {
+  font-size: $headline-h4;
+  margin-bottom: 0.5rem;
+}
+
+.card__body {
+  font-size: $default-font-size;
+}
+
+.card__footer {
+  margin-top: 1rem;
+}
+
+.btn__icon {
+  color: $color-accent-dark;
+  fill: $color-accent-dark;
+}

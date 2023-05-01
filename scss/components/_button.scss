@@ -1,0 +1,14 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  border: 1px solid $color-accent-dark;
+  width: max-content;
+
+  &--primary {
+    color: $color-accent-dark;
+  }
+}

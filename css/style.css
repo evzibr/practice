@@ -14,3 +14,41 @@ body {
   color: #333;
   padding: 1.875rem;
   font-size: 1rem; }
+
+.card {
+  color: #333;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #777;
+  border-radius: 0.25rem; }
+
+.card__header {
+  font-size: 1rem;
+  margin-bottom: 0.5rem; }
+
+.card__body {
+  font-size: 1rem; }
+
+.card__footer {
+  margin-top: 1rem; }
+
+.btn__icon {
+  color: #035753;
+  fill: #035753; }
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  border: 1px solid #035753;
+  width: max-content; }
+  .btn--primary {
+    color: #035753; }
+
+.icon {
+  height: 1rem;
+  width: 1rem;
+  display: block; }
